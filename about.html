@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About & Contact — Raycation</title>
+  <meta name="description" content="Learn about our hosting philosophy and get in touch for booking inquiries.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="about">
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+<img src="assets/Raycation.png" alt="Raycation">
+      </a>
+      <button class="mobile-toggle" aria-label="Toggle navigation">☰</button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="listings.html">Stays</a>
+        <a href="listings.html?location=goa">Goa</a>
+        <a href="listings.html?location=neral">Neral</a>
+        <a href="listings.html?location=badlapur">Badlapur</a>
+        <a href="about.html" class="active">About</a>
+        <a href="#contact" class="btn btn-primary btn-sm">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ABOUT HERO -->
+  <section class="about-hero">
+    <div class="container">
+      <h1>Our Story</h1>
+      <p>We believe the best travel memories begin with where you lay your head.</p>
+    </div>
+  </section>
+
+  <!-- ABOUT CONTENT -->
+  <section class="section">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>Hospitality is personal</h2>
+          <p>Raycation was born from a simple belief: that where you stay should be more than just a place to sleep. It should be a portal to a place, a culture, a way of life that stays with you long after you've checked out.</p>
+          <p>Every property in our collection has been hand-selected and personally visited. We don't just curate homes — we curate experiences. From the whitewashed villas of Candolim to the misty farm trails of Neral, each stay is chosen for its character, its host, and its ability to make you feel something real.</p>
+          <p>Our hosts are the heart of what we do. They're artists, farmers, chefs, and families who open their homes because they genuinely love sharing their corner of the world. When you book with us, you're not just renting a space — you're connecting with someone's passion project.</p>
+
+          <div class="about-values">
+            <div class="value-item">
+              <div class="value-icon">🤝</div>
+              <div class="value-text">
+                <h4>Personal Curation</h4>
+                <p>Every property is visited and vetted by our team. No algorithm — just human judgment.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">🌿</div>
+              <div class="value-text">
+                <h4>Sustainable Travel</h4>
+                <p>We work with eco-conscious hosts and promote slow, meaningful travel over tourism.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">❤️</div>
+              <div class="value-text">
+                <h4>Local Impact</h4>
+                <p>Your stay directly supports local families, artisans, and communities across the region.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">📞</div>
+              <div class="value-text">
+                <h4>Real Support</h4>
+                <p>Reach us anytime. We're real people based in Mumbai, not a chatbot in a distant timezone.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CONTACT FORM -->
+        <div class="contact-form-wrapper" id="contact">
+          <h3>Get in Touch</h3>
+          <p style="color:var(--color-gray-600);margin-bottom:24px;">Have a question or want to book directly? Send us a message and we'll get back to you within 24 hours.</p>
+
+          <form class="contact-form" id="contact-form">
+            <div class="form-row">
+              <div>
+                <label for="contact-name">Full Name *</label>
+                <input type="text" id="contact-name" required placeholder="Your name">
+              </div>
+              <div>
+                <label for="contact-email">Email *</label>
+                <input type="email" id="contact-email" required placeholder="your@email.com">
+              </div>
+            </div>
+            <div class="form-row">
+              <div>
+                <label for="contact-phone">Phone</label>
+                <input type="tel" id="contact-phone" placeholder="+91 98...">
+              </div>
+              <div>
+                <label for="contact-location">Interested Location</label>
+                <select id="contact-location">
+                  <option value="">Any Location</option>
+                  <option value="goa">Goa</option>
+                  <option value="neral">Neral</option>
+                  <option value="badlapur">Badlapur</option>
+                </select>
+              </div>
+            </div>
+            <div>
+              <label for="contact-message">Your Message *</label>
+              <textarea id="contact-message" required placeholder="Tell us about your trip — dates, group size, preferences..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+
+          <div class="success-message" id="contact-success">
+            <div class="icon">✓</div>
+            <h3>Message Sent!</h3>
+            <p style="color:var(--color-gray-600);">Thank you for reaching out. We'll respond within 24 hours.</p>
+          </div>
+
+          <div style="margin-top:24px;padding-top:24px;border-top:1px solid var(--color-gray-200);">
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;">
+              <span style="font-size:1.3rem;">📧</span>
+              <span><a href="mailto:hello@Raycation.com">hello@Raycation.com</a></span>
+            </div>
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;">
+              <span style="font-size:1.3rem;">📞</span>
+              <span><a href="tel:+12311231">+91 123123123</a></span>
+            </div>
+            <div style="display:flex;align-items:center;gap:10px;">
+              <span style="font-size:1.3rem;">📍</span>
+              <span>Mumbai, Maharashtra, India</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+            <img src="assets/Raycation.png" alt="Raycation">
+          </div>
+          <p>Boutique vacation rentals across Maharashtra and Goa. Curated homes, memorable stays, local hospitality.</p>
+        </div>
+        <div>
+          <h4>Locations</h4>
+          <ul class="footer-links">
+            <li><a href="listings.html?location=goa">Goa</a></li>
+            <li><a href="listings.html?location=neral">Neral</a></li>
+            <li><a href="listings.html?location=badlapur">Badlapur</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="listings.html">All Stays</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="about.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:hello@Raycation.com">hello@Raycation.com</a></li>
+            <li><a href="tel:+123123123">+91 123123123</a></li>
+            <li>Mumbai, Maharashtra</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Raycation. All rights reserved.</span>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram">📸</a>
+          <a href="#" aria-label="Facebook">👍</a>
+          <a href="#" aria-label="Twitter">🐦</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
